@@ -1,156 +1,486 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food-chain</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <header>
-        <nav>
-            <h1><i class="ri-shining-2-fill"></i> WizardZ</h1>
-            <div class="part1">
-                <li><a href="">About us</a></li>
-                <li><a href="">Service</a></li>
-                <li><a href="">Use Cases</a></li>
-                <li><a href="">Pricing</a></li>
-                <li><a href="">Blog</a></li>
-                <button>Request a quote</button>
-            </div>
-        </nav>
-        <div class="navcontent">
-            <div class="navpart1">
-                <h1>Navigating the digital landscape for success</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit beatae enim modi temporibus asperiores ut vitae dolorem quidem, doloremque atque?</p>
-                <button>Book a consulation</button>
-            </div>
-            <div class="navpart2">
-             <img src="https://www.unicuscreatives.in/media/graphics/homepage-megaphone.svg" alt="">
-            </div>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="Foodimg/images/logo.png" alt="Logo-img">
+      </div>
+      <ul id="negvtion">
+        <li><a href="#">home</a></li>
+        <li><a href="#">featured</a></li>
+        <li><a href="#">items</a></li>
+        <li><a href="#">menu</a></li>
+        <li><a href="#">testimonials</a></li>
+        <li><a href="#">bolg</a></li>
+      </ul>
+      <div class="darklight-serachbox">
+        <div class="darklight">
+          <i class="fa-regular fa-moon moon"></i>
+          <i class="fa-regular fa-sun sun"></i>
         </div>
-    
-    <div class="loges">
-       <h2>Amazone</h2>
-       <h2>Dribble</h2>
-       <h2>Hubsopt</h2>
-       <h2>Nation</h2>
-       <h2>Netflex</h2>
-       <h2>Zoom</h2>
+        <div class="searchbox">
+          <div class="searchtoggle">
+            <i class="fa-solid fa-xmark mark"></i>
+            <i class="fa-solid fa-magnifying-glass search "></i>
+          </div>
+          <div class="search-felied">
+            <input type="text" placeholder="Serach here...">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <div class="shopcard">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span id="sp">0</span>
+        </div>
+        <div class="navbar">
+          <div class="navclose">
+            <i class="fa-solid fa-xmark atif" onclick="toggleMenu()"></i>
+            <i class="fa-solid fa-bars bar" onclick="toggleMenu()"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="home" id="home">
+    <div class="home-content continer">
+      <div class="home-next">
+        <h1>
+          Grilled Beef<br>
+          Burger
+        </h1>
+        <p>Special Deal only TUESDAY every Week</p>
+        <h3>Buy 1 Get One FREE!</h3>
+        <a href="#" class="btn">Order Now</a>
+      </div>
+      <img src="Foodimg/images/home.png" alt="" class="home-img">
     </div>
-    </header>
-  
-    <div class="main">
-       <div class="section1">
-        <h3>Services</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, magnam assumenda dignissimos ut sunt eius, quas soluta.</p>
-       </div>
+    <img src="Foodimg/images/home-mask.png" alt="" class="homemask-img">
+  </section>
 
-       <div class="box">
-        <div class="box1">
-            <div class="heee">
-            <div class="hee">
-            <h4>Search engine<br>optimization</h4>
+  <main>
+    <div class="pra">
+      <div class="dra1">
+        <img src="Foodimg/images/feature-1.svg" alt="img">
+        <div class="pranext">
+          <h3>Premium Material</h3>
+          <p>Made From Permium Material</p>
         </div>
-            <p><i class="ri-arrow-right-up-line"></i> Leran more</p>
-        </div>
-            <div class="box22">
-                <img src="https://www.unicuscreatives.in/media/graphics/homepage-megaphone.svg" alt="">
-            </div>
-        </div>
+      </div>
 
-        <div class="box2">
-            <div class="boss">
-            <div class="boss1">
-            <h4>Pay per click<br>advertising</h4>
+      <div class="dra1">
+        <img src="Foodimg/images/feature-2.svg" alt="img">
+        <div class="pranext">
+          <h3>Premium Material</h3>
+          <p>Made From Permium Material</p>
         </div>
-            <p><i class="ri-arrow-right-up-line"></i> Leran more</p>
-        </div>
-            <div class="box222">
-                <img src="https://www.unicuscreatives.in/media/graphics/homepage-megaphone.svg" alt="">
-            </div>
-        </div>
-        <div class="box3">
-             <div class="atif">
-            <div class="atif1">
-            <h4>Social media<br>marketing</h4>
-        </div>
-            <p><i class="ri-arrow-right-up-line"></i> Leran more</p>
-        </div>
-            <div class="atif3">
-                <img src="https://www.unicuscreatives.in/media/graphics/homepage-megaphone.svg" alt="">
-            </div>
-        </div>
+      </div>
 
-        <div class="box4">
-              <div class="kk">
-            <div class="kk1">
-            <h4>E-mail<br>marketing</h4>
+      <div class="dra1">
+        <img src="Foodimg/images/feature-3.svg" alt="img">
+        <div class="pranext">
+          <h3>Premium Material</h3>
+          <p>Made From Permium Material</p>
         </div>
-            <p><i class="ri-arrow-right-up-line"></i> Leran more</p>
+      </div>
+
+      <div class="dra1">
+        <img src="Foodimg/images/feature-4.svg" alt="img">
+        <div class="pranext">
+          <h3>Premium Material</h3>
+          <p>Made From Permium Material</p>
         </div>
-            <div class="kk2">
-                <img src="https://www.unicuscreatives.in/media/graphics/homepage-megaphone.svg" alt="">
-            </div>
+      </div>
+
+
+    </div>
+
+    <div class="pesto">
+      <div class="h1">
+        <h1>Pestos Featured Menu</h1>
+      </div>
+      <div class="imgess">
+        <div class="img1">
+          <div id="bb">
+            <img src="Foodimg/images/feature-menu-1.png" alt="img">
+          </div>
+          <h6>BBQ</h6>
+          <P>(4 items)</P>
         </div>
-       </div>
-         <div class="contant">
-        <div class="cont">
-        <div class="contpart1">
-            <h3>Free services to every one by get one free.</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Nemooo <br>ut magnam ducimus exercitationem esse mollitia quidem hic od<br>officiis architecto!</p>
-            <button>Red more  perfect don</button>
+        <div class="img1">
+          <div id="bb1">
+            <img src="Foodimg/images/feature-menu-2.png" alt="img">
+          </div>
+          <h6>Burger</h6>
+          <P>(4 items)</P>
         </div>
-        <div class="contart2">
-                <img src="https://www.unicuscreatives.in/media/graphics/homepage-megaphone.svg" alt="">
+        <div class="img1">
+          <div id="bb2">
+            <img src="Foodimg/images/feature-menu-3.png" alt="img">
+          </div>
+          <h6>Chicknes</h6>
+          <P>(4 items)</P>
         </div>
-     </div>
+        <div class="img1">
+          <div id="bb3">
+            <img src="Foodimg/images/feature-menu-4.png" alt="img">
+          </div>
+          <h6>Drinks</h6>
+          <P>(4 items)</P>
+        </div>
+        <div class="img1">
+          <div id="bb4">
+            <img src="Foodimg/images/feature-menu-5.png" alt="img">
+          </div>
+          <h6>Fesh</h6>
+          <P>(4 items)</P>
+        </div>
+        <div class="img1">
+          <div id="bb5">
+            <img src="Foodimg/images/feature-menu-6.png" alt="img">
+          </div>
+          <h6>Pizzos</h6>
+          <P>(4 items)</P>
+        </div>
       </div>
     </div>
 
+    <div class="futermenu">
+      <div class="futer">
+        <h1>Our Featured Menu</h1>
+      </div>
+      <div class="card">
+        <div class="card1">
+          <h4>Sale</h4>
+          <img src="Foodimg/images/item-1.png" alt="img">
+          <h6>Spicy Burger</h6>
+          <p>From $2200.00<span>$300.00</span></p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="card1">
+          <h4>Sale</h4>
+          <img src="Foodimg/images/item-2.png" alt="img">
+          <h6>Spicy Burger</h6>
+          <p>From $2200.00<span>$300.00</span></p>
+          <button>Add to Card</button>
+        </div>
+        <div class="card1">
+          <h4>Sale</h4>
+          <img src="Foodimg/images/item-3.png" alt="img">
+          <h6>Spicy Burger</h6>
+          <p>From $2200.00<span>$300.00</span></p>
+          <button>Add to Card</button>
+        </div>
+        <div class="card1">
+          <h4>Sale</h4>
+          <img src="Foodimg/images/item-4.png" alt="img">
+          <h6>Spicy Burger</h6>
+          <p>From $2200.00<span>$300.00</span></p>
+          <button>Add to Card</button>
+        </div>
+      </div>
 
-<footer>
+      <div class="card">
+        <div class="card1">
+          <h4>Sale</h4>
+          <img src="Foodimg/images/item-5.png" alt="img">
+          <h6>Spicy Burger</h6>
+          <p>From $2200.00<span>$300.00</span></p>
+          <button>Add to Card</button>
+        </div>
+        <div class="card1">
+          <h4>Sale</h4>
+          <img src="Foodimg/images/item-6.png" alt="img">
+          <h6>Spicy Burger</h6>
+          <p>From $2200.00<span>$300.00</span></p>
+          <button>Add to Card</button>
+        </div>
+        <div class="card1">
+          <h4>Sale</h4>
+          <img src="Foodimg/images/item-7.png" alt="img">
+          <h6>Spicy Burger</h6>
+          <p>From $2200.00<span>$300.00</span></p>
+          <button>Add to Card</button>
+        </div>
+        <div class="card1">
+          <h4>Sale</h4>
+          <img src="Foodimg/images/item-8.png" alt="img">
+          <h6>Spicy Burger</h6>
+          <p>From $2200.00<span>$300.00</span></p>
+          <button>Add to Card</button>
+        </div>
+      </div>
+      <div class="div"></div>
+    </div>
+
+    <section class="menu-continer" id="menu-continer">
+      <h2 class="heading-continer">Pestos Featured Menu Board</h2>
+      <img src="Foodimg/images/menu-mask.png" alt="" class="menu-mask">
+      <div class="menu-content continer">
+        <div class="menu-box">
+          <h2>Burgers</h2>
+          <div class="buger-content">
+            <div class="mitms-box">
+              <img src="Foodimg/images/burger-1.png" alt="">
+              <div class="mitem-right">
+                <div class="mitem-des">
+                  <h3>Meta Buger</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                </div>
+                <div class="mitem-prices">
+                  <h3>Form $200.00</h3>
+                  <p>$300.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="mitms-box">
+              <img src="Foodimg/images/burger-2.png" alt="">
+              <div class="mitem-right">
+                <div class="mitem-des">
+                  <h3>Spicy Meta Buger</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                </div>
+                <div class="mitem-prices">
+                  <h3>Form $200.00</h3>
+                  <p>$300.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="mitms-box">
+              <img src="Foodimg/images/burger-3.png" alt="">
+              <div class="mitem-right">
+                <div class="mitem-des">
+                  <h3>Beef Meta Buger</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                </div>
+                <div class="mitem-prices">
+                  <h3>Form $200.00</h3>
+                  <p>$300.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="mitms-box">
+              <img src="Foodimg/images/burger-4.png" alt="">
+              <div class="mitem-right">
+                <div class="mitem-des">
+                  <h3>Checkin Buger</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                </div>
+                <div class="mitem-prices">
+                  <h3>Form $200.00</h3>
+                  <p>$300.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-box">
+          <h2>BBQ</h2>
+          <div class="bbq-content">
+            <div class="mitms-box">
+              <img src="Foodimg/images/bbq-1.png" alt="">
+              <div class="mitem-right">
+                <div class="mitem-des">
+                  <h3>Maton BBQ</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                </div>
+                <div class="mitem-prices">
+                  <h3>Form $200.00</h3>
+                  <p>$300.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="mitms-box">
+              <img src="Foodimg/images/bbq-2.png" alt="">
+              <div class="mitem-right">
+                <div class="mitem-des">
+                  <h3>Spicy Meta BBQ</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                </div>
+                <div class="mitem-prices">
+                  <h3>Form $200.00</h3>
+                  <p>$300.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="mitms-box">
+              <img src="Foodimg/images/bbq-3.png" alt="">
+              <div class="mitem-right">
+                <div class="mitem-des">
+                  <h3>Beef Meta BBQ</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                </div>
+                <div class="mitem-prices">
+                  <h3>Form $200.00</h3>
+                  <p>$300.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="mitms-box">
+              <img src="Foodimg/images/bbq-4.png" alt="">
+              <div class="mitem-right">
+                <div class="mitem-des">
+                  <h3>BBQ Buger</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                </div>
+                <div class="mitem-prices">
+                  <h3>Form $200.00</h3>
+                  <p>$300.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="testh1">
+        <h1>Testimonials</h1>
+        <div class="testcards">
+          <div class="testcard1">
+            <div class="testicons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni itaque dolores obcaecati, beatae
+              explicabo, consectetur laborum sunt deserunt soluta ea adipisci, quam eius aspernatur eaque architecto
+              dicta. Tempora, commodi illo.</p>
+            <div class="testimg">
+              <img src="Foodimg/images/profile-4.png" alt="">
+            </div>
+            <div class="testname">
+              <h6>Alfroda boter</h6>
+              <p>Hair style</p>
+            </div>
+          </div>
+          <div class="testcard1">
+            <div class="testicons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni itaque dolores obcaecati, beatae
+              explicabo, consectetur laborum sunt deserunt soluta ea adipisci, quam eius aspernatur eaque architecto
+              dicta. Tempora, commodi illo.</p>
+            <div class="testimg">
+              <img src="Foodimg/images/profile-3.png" alt="">
+            </div>
+            <div class="testname">
+              <h6>Alfroda boter</h6>
+              <p>Hair style</p>
+            </div>
+          </div>
+
+          <div class="testcard1">
+            <div class="testicons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni itaque dolores obcaecati, beatae
+              explicabo, consectetur laborum sunt deserunt soluta ea adipisci, quam eius aspernatur eaque architecto
+              dicta. Tempora, commodi illo.</p>
+            <div class="testimg">
+              <img src="Foodimg/images/profile-3.png" alt="">
+            </div>
+            <div class="testname">
+              <h6>Alfroda boter</h6>
+              <p>Hair style</p>
+            </div>
+          </div>
+
+          <div class="testcard1">
+            <div class="testicons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni itaque dolores obcaecati, beatae
+              explicabo, consectetur laborum sunt deserunt soluta ea adipisci, quam eius aspernatur eaque architecto
+              dicta. Tempora, commodi illo.</p>
+            <div class="testimg">
+              <img src="Foodimg/images/profile-4.png" alt="">
+            </div>
+            <div class="testname">
+              <h6>Alfroda boter</h6>
+              <p>Hair style</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sub" id="neslater">
+      <h1>Subscribe and Get 10% Discount</h1>
+      <p>Be the fiest to get latest ,promotions and much more.</p>
+      <form action="">
+        <input type="email" name="" id="" class="email" placeholder="Email" required>
+        <input type="submit" value="Subscribe" class="s-btn">
+      </form>
+    </section>
+  </main>
+  <footer>
     <div class="con">
-      <div class="cc">
-        <div class="pra">
+      <div class="pra">
+        <img src="Foodimg/images/logo.png" alt="">
         <p>Questions? Contact us.</p>
         <p>FAQ</p>
         <p>Investor Relations</p>
         <p>Privcy</p>
         <p>Speed Test</p>
         <select class="seach-select">
-                <option>*@ English</option>
+          <option>*@ English</option>
         </select>
-          <p><i class="ri-shining-2-fill"></i> WizardZ.Pakistan</p>
-        </div>
+        <p>Pestos Food Pakistan</p>
+      </div>
 
-         <div class="pra">
+      <div class="pra">
         <p>Help Center</p>
         <p>Jobs</p>
         <p>Cookie Preferences</p>
         <p>Legal Notic</p>
-        </div>
+      </div>
 
-         <div class="pra">
+      <div class="pra">
         <p>Account</p>
         <p>Why To Watch</p>
         <p>Corporate Information</p>
-        <p>Only on Netflix</p>
-        </div>
+        <p>Only on Pestos</p>
+      </div>
 
-         <div class="pra">
+      <div class="pra">
         <p>Media Center</p>
         <p>Trems of Uses</p>
         <p>Contant Us</p>
-        </div>
 
+      </div>
     </div>
-    </div>
-</footer>
+  </footer>
 
 
 
@@ -162,6 +492,12 @@
 
 
 
-    
+
+
+
+
+
+  <script src="script.js"></script>
 </body>
+
 </html>
